@@ -19,7 +19,6 @@ function App() {
   }
   return (
     <>
-    {/*<Navbar title="TextUtils" aboutText="About TextUtils"/>*/}
     <Navbar title="TextUtils" mode= {mode} toggleMode = {toggleMode}/>
     <div className="container my-3">
       <TextForm heading="Enter the text to analyze"/>
